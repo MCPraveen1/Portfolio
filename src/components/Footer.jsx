@@ -5,7 +5,7 @@ function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="footer">
+    <section id="footer" className="footer">
 
       <h3>Praveen MC</h3>
 
@@ -21,7 +21,7 @@ function Footer() {
         Built with React ❤️
       </p>
 
-    </footer>
+    </section>
   );
 }
 

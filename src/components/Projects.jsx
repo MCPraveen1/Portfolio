@@ -2,7 +2,7 @@ import "./Projects.css";
 
 function Projects() {
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
 
       <h2>Featured AI Projects</h2>
 

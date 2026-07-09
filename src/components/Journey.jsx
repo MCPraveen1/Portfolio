@@ -2,9 +2,9 @@ import "./Journey.css";
 
 function Journey() {
   return (
-    <section className="journey">
+    <section id="journey" className="journey">
 
-      <h2>My Journey</h2>
+      <h2>My Professional Journey</h2>
 
       <div className="timeline">
 

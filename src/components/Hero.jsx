@@ -3,7 +3,7 @@ import profile from "../assets/profile.png";
 
 function Hero() {
   return (
-    <section className="hero">
+    <section id="home" className="hero">
 
       <div className="hero-text">
 
