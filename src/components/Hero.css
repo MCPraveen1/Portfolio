@@ -1,52 +1,108 @@
-
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 80px 60px;
 }
 
+/* ---------------- Hero Text ---------------- */
+
 .hero-text {
     flex: 1;
+    max-width: 600px;
+    padding-right: 30px;
 }
 
-.hero-image {
-    flex: 1;
-    text-align: center;
+.hero-text h1 {
+    margin-bottom: 15px;
 }
+
+.hero-text h2 {
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    line-height: 1.7;
+    margin-top: 20px;
+}
+
+/* ---------------- Buttons ---------------- */
 
 .hero-buttons {
-    margin-top: 30px;
     display: flex;
     gap: 20px;
+    margin-top: 30px;
+}
+
+.primary-btn,
+.secondary-btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
 }
 
 .primary-btn {
     background-color: #2563eb;
     color: white;
     border: none;
-    padding: 12px 24px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
+}
+
+.primary-btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
 }
 
 .secondary-btn {
     background-color: white;
     color: #2563eb;
     border: 2px solid #2563eb;
-    padding: 12px 24px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
+}
+
+.secondary-btn:hover {
+    background-color: #2563eb;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* ---------------- Quick Links ---------------- */
+
+.hero-links {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.hero-links a {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.hero-links a:hover {
+    color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* ---------------- Profile Image ---------------- */
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-image {
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     object-fit: cover;
     border-radius: 50%;
-
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }

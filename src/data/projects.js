@@ -22,7 +22,15 @@ const projects = [
     tech: "TensorFlow • CNN",
     github: "",
     demo: ""
-  }
+  },
+  {
+  id: 4,
+  title: "LoanTap Loan Prediction",
+  description: "Built a machine learning model to predict loan defaults.",
+  tech: "Python • Scikit-learn • XGBoost",
+  github: "",
+  demo: ""
+}
 ];
 
 export default projects;

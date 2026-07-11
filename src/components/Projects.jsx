@@ -1,4 +1,5 @@
 import "./Projects.css";
+import projects from "../data/projects";
 
 function Projects() {
   return (
@@ -8,34 +9,19 @@ function Projects() {
 
       <div className="project-grid">
 
-        <div className="project-card">
-          <h3>AI Website Summarizer</h3>
-          <p>
-            Summarizes any website using Large Language Models.
-          </p>
+        {projects.map((project) => (
 
-          <span>React • Groq • LLM</span>
-        </div>
+          <div key={project.id} className="project-card">
 
-        <div className="project-card">
-          <h3>FlipItNews NLP</h3>
+            <h3>{project.title}</h3>
 
-          <p>
-            News classification using Natural Language Processing.
-          </p>
+            <p>{project.description}</p>
 
-          <span>Python • NLP • Scikit-learn</span>
-        </div>
+            <span>{project.tech}</span>
 
-        <div className="project-card">
-          <h3>Ninjacart Computer Vision</h3>
+          </div>
 
-          <p>
-            Vegetable image classification using CNN.
-          </p>
-
-          <span>TensorFlow • CNN</span>
-        </div>
+        ))}
 
       </div>
 
