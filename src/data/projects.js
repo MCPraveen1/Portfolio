@@ -2,35 +2,52 @@ const projects = [
   {
     id: 1,
     title: "AI Website Summarizer",
-    description: "Summarizes websites using Large Language Models.",
+    description:
+     "Built an AI-powered application that summarizes website content using Large Language Models, helping users quickly understand lengthy web pages.",
     tech: "React • Groq • LLM",
     github: "https://github.com/MCPraveen1/ai-website-summarizer",
-    demo: ""
+    demo: null,
   },
+
   {
     id: 2,
     title: "FlipItNews NLP",
-    description: "News classification using Natural Language Processing.",
+    description:
+      "Built an NLP-based text classification model that automatically categorizes news articles into multiple topics.",
     tech: "Python • NLP • Scikit-learn",
     github: "https://github.com/MCPraveen1/FlipItNews-NLP-Classification",
-    demo: ""
+    demo: null,
   },
+
   {
     id: 3,
     title: "Ninjacart Computer Vision",
-    description: "Vegetable image classification using CNN.",
+    description:
+      "Developed a computer vision model for vegetable image classification using deep learning and transfer learning techniques.",
     tech: "TensorFlow • CNN",
     github: "",
-    demo: ""
+    demo: null,
   },
+
   {
-  id: 4,
-  title: "LoanTap Loan Prediction",
-  description: "Built a machine learning model to predict loan defaults.",
-  tech: "Python • Scikit-learn • XGBoost",
-  github: "",
-  demo: ""
-}
+    id: 4,
+    title: "LoanTap Loan Prediction",
+    description:
+      "Developed a machine learning model to predict loan defaults using customer demographic and financial data.",
+    tech: "Python • Scikit-learn • XGBoost",
+    github: "",
+    demo: null,
+  },
+
+  {
+    id: 5,
+    title: "React Portfolio",
+    description:
+      "Designed and developed a responsive React portfolio to showcase AI, Machine Learning and Data Analytics projects using reusable components and modern frontend practices.",
+    tech: "React • Vite • CSS",
+    github: "https://github.com/MCPraveen1/Portfolio",
+    demo: null,
+  },
 ];
 
 export default projects;

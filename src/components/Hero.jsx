@@ -1,5 +1,6 @@
 import "./Hero.css"
 import profile from "../assets/profile.png";
+import profileData from "../data/profile";
 
 function Hero() {
   return (
@@ -7,15 +8,11 @@ function Hero() {
 
       <div className="hero-text">
 
-        <h1>Praveen MC</h1>
+        <h1>{profileData.name}</h1>
 
-<h2>AI Engineer | Generative AI | Machine Learning</h2>
+<h2>{profileData.title}</h2>
 
-<p>
-  AI Engineer with 25+ years of healthcare domain expertise, building
-  intelligent applications using Python, Machine Learning, NLP,
-  Computer Vision, React and Large Language Models.
-</p>
+<p>{profileData.description}</p>
         
         <div className="hero-buttons">
 
@@ -23,16 +20,20 @@ function Hero() {
     View Projects
   </a>
 
-  <a href="#" className="secondary-btn">
-    Download Resume
-  </a>
+  <a
+  href="/resume/Praveen_MC_Resume.pdf"
+  download
+  className="secondary-btn"
+>
+  Download Resume
+</a>
 
 </div>
 
 <div className="hero-links">
 
   <a
-    href="https://github.com/MCPraveen1"
+    href={profileData.github}
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -40,16 +41,16 @@ function Hero() {
   </a>
 
   <a
-    href="https://www.linkedin.com/in/mc-praveen"
+    href={profileData.linkedin}
     target="_blank"
     rel="noopener noreferrer"
   >
     💼 LinkedIn
   </a>
 
-</div>
-
-      </div>
+</div> 
+  
+    </div>
 
       <div className="hero-image">
 

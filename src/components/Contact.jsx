@@ -14,9 +14,15 @@ function Contact() {
       <div className="contact-details">
 
         <div className="contact-card">
-          <h3>📧 Email</h3>
-          <p>your-email@example.com</p>
-        </div>
+  <h3>📧 Email</h3>
+
+  <a
+    href="mailto:pchund00bob@gmail.com"
+    className="contact-link"
+  >
+    pchund00bob@gmail.com
+  </a>
+</div>
 
         <div className="contact-card">
           <h3>💼 LinkedIn</h3>
@@ -47,9 +53,13 @@ function Contact() {
 
       </div>
 
-      <button className="resume-btn">
-        Download Resume
-      </button>
+      <a
+  href="/resume/Praveen_MC_Resume.pdf"
+  download
+  className="resume-btn"
+>
+  Download Resume
+</a>
 
     </section>
   );
