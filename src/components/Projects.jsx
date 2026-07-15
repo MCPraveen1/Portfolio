@@ -17,7 +17,13 @@ function Projects() {
 
         {projects.map((project) => (
 
-          <div key={project.id} className="project-card">
+         <div key={project.id} className="project-card">
+
+  <img
+    src={project.image}
+    alt={project.title}
+    className="project-image"
+  />
 
   <h3>{project.title}</h3>
 
