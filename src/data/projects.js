@@ -3,11 +3,23 @@ import ninjacart from "../assets/projects/ninjacart.png";
 import flipitnews from "../assets/projects/flipitnews.png";
 import loantap from "../assets/projects/loantap.png";
 import portfolio from "../assets/projects/portfolio.png";
+import pdfassistant from "../assets/projects/pdfassistant.png";
 
 
 const projects = [
   {
-    id: 1,
+  id: 1,
+  image: pdfassistant,
+  title: "AI PDF Assistant",
+  description:
+    "AI-powered PDF Assistant that uses Retrieval-Augmented Generation (RAG) to answer questions from uploaded PDF documents.",
+  tech: "Python • LangChain • OpenAI • ChromaDB • Gradio",
+  github: "https://github.com/MCPraveen1/ai-pdf-assistant",
+  demo: null,
+},
+  
+  {
+    id: 2,
     image: summarizer,
     title: "AI Website Summarizer",
     description:
@@ -18,7 +30,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     image: flipitnews,
     title: "FlipItNews NLP",
     description:
@@ -29,7 +41,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: ninjacart,
     title: "Ninjacart Computer Vision",
     description:
@@ -40,7 +52,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     image: loantap,
     title: "LoanTap Loan Prediction",
     description:
@@ -51,7 +63,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     image: portfolio,
     title: "React Portfolio",
     description:
@@ -60,6 +72,8 @@ const projects = [
     github: "https://github.com/MCPraveen1/Portfolio",
     demo: null,
   },
+
+  
 ];
 
 export default projects;
