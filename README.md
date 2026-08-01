@@ -1,16 +1,61 @@
-# React + Vite
+# 🌐 Praveen MC Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio built with **React** and **Vite** to showcase my AI Engineering, Machine Learning, NLP, Computer Vision, and Data Analytics projects.
 
-Currently, two official plugins are available:
+## 🚀 Live Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://mcpraveen1.github.io/Portfolio/
 
-## React Compiler
+## 👨‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I am transitioning into AI Engineering and Machine Learning after 25+ years of professional experience in Quality Assurance. My focus is on building practical AI applications using Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), NLP, Computer Vision, and Data Analytics.
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+
+## 📂 Featured Projects
+
+### 🤖 AI Projects
+- AI PDF Assistant (RAG)
+- AI Website Summarizer
+- AI Model Arena *(Coming Soon)*
+
+### 🧠 Machine Learning
+- FlipItNews NLP Classification
+- NinjaCart Computer Vision
+- LoanTap Loan Prediction
+
+### 📊 Data Analytics
+- Tableau Dashboard *(Coming Soon)*
+- SQL Portfolio *(Coming Soon)*
+
+## ✨ Features
+
+- Responsive design
+- Modern React components
+- Clean project organization
+- GitHub integration
+- Mobile-friendly interface
+
+## 📬 Contact
+
+**GitHub**
+
+https://github.com/MCPraveen1
+
+**LinkedIn**
+
+(Add your LinkedIn URL)
+
+**Email**
+
+pchund00bob@gmail.com
+
+---
+
+⭐ If you found this portfolio useful, feel free to explore my repositories.
