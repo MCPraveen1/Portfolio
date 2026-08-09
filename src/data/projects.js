@@ -4,7 +4,7 @@ import flipitnews from "../assets/projects/flipitnews.png";
 import loantap from "../assets/projects/loantap.png";
 import portfolio from "../assets/projects/portfolio.png";
 import pdfassistant from "../assets/projects/pdfassistant.png";
-
+import quickbite from "../assets/projects/quickbite-eta.png";
 
 const projects = [
   {
@@ -52,14 +52,14 @@ const projects = [
   },
 
   {
-    id: 5,
-    image: loantap,
-    title: "LoanTap Loan Prediction",
-    description:
-      "Developed a machine learning model to predict loan defaults using customer demographic and financial data.",
-    tech: "Python • Scikit-learn • XGBoost",
-    github: "",
-    demo: null,
+  id: 5,
+  image: loantap,
+  title: "LoanTap Loan Prediction",
+  description:
+    "Developed a machine learning model to predict loan defaults using customer demographic and financial data.",
+  tech: "Python • Scikit-learn • XGBoost",
+  github: "",
+  demo: null,
   },
 
   {
@@ -72,7 +72,16 @@ const projects = [
     github: "https://github.com/MCPraveen1/Portfolio",
     demo: null,
   },
-
+  {
+  id: 7,
+  image: quickbite,
+  title: "QuickBite ETA – Dockerized ML API",
+  description:
+    "Built and containerized a machine learning API that predicts food delivery ETA using a Random Forest regression model, with model training, serialization and FastAPI inference packaged into a Docker image.",
+  tech: "Python • Scikit-learn • FastAPI • Docker",
+  github: "https://github.com/MCPraveen1/Docker-ML-API",
+  demo: null,
+},
   
 ];
 
