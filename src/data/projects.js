@@ -5,6 +5,7 @@ import loantap from "../assets/projects/loantap.png";
 import portfolio from "../assets/projects/portfolio.png";
 import pdfassistant from "../assets/projects/pdfassistant.png";
 import quickbite from "../assets/projects/quickbite-eta.png";
+import interviewiq from "../assets/projects/interviewiq.png";
 
 const projects = [
   {
@@ -80,6 +81,17 @@ const projects = [
     "Built and containerized a machine learning API that predicts food delivery ETA using a Random Forest regression model, with model training, serialization and FastAPI inference packaged into a Docker image.",
   tech: "Python • Scikit-learn • FastAPI • Docker",
   github: "https://github.com/MCPraveen1/Docker-ML-API",
+  demo: null,
+},
+
+{
+  id: 8,
+  image: interviewiq,
+  title: "InterviewIQ – AI Interview Coach",
+  description:
+    "Built an AI-powered interview practice application that evaluates responses using filler-word detection, STAR structure analysis and relevance scoring, and provides final interview reports with personalised AI coaching.",
+  tech: "Python • Gradio • LLM • AI Agents",
+  github: "https://github.com/MCPraveen1/interviewiq",
   demo: null,
 },
   
