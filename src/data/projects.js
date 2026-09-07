@@ -6,6 +6,7 @@ import portfolio from "../assets/projects/portfolio.png";
 import pdfassistant from "../assets/projects/pdfassistant.png";
 import quickbite from "../assets/projects/quickbite-eta.png";
 import interviewiq from "../assets/projects/interviewiq.png";
+import northwind from "../assets/projects/northwind-exception-desk.png";
 
 const projects = [
   {
@@ -90,6 +91,7 @@ const projects = [
   },
   {
     id: 9,
+    image: northwind,
     title: "Northwind Logistics – Shipment Exception Desk",
     description:
       "Built an AI-powered shipment exception triage system that classifies logistics issues, applies deterministic compensation rules, decides auto-resolution versus escalation, and generates customer or internal messages.",
