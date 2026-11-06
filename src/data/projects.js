@@ -7,8 +7,19 @@ import pdfassistant from "../assets/projects/pdfassistant.png";
 import quickbite from "../assets/projects/quickbite-eta.png";
 import interviewiq from "../assets/projects/interviewiq.png";
 import northwind from "../assets/projects/northwind-exception-desk.png";
+import fundamentalAnalysis from "../assets/projects/fundamental-analysis-agent.png";
 
 const projects = [
+  {
+    id: 10,
+    image: fundamentalAnalysis,
+    title: "Fundamental Analysis Agent – AI Investment Research",
+    description:
+      "Built a multi-agent stock analysis system for Indian and US equities. An Investment Orchestrator coordinates financial data, live price and verified-news agents to produce structured investment memos, with FastAPI JSON/PDF endpoints and Docker support.",
+    tech: "Python • Groq • Multi-Agent AI • FastAPI • Docker • yfinance • FMP",
+    github: "https://github.com/MCPraveen1/fundamental-analysis-agent",
+    demo: null,
+  },
   {
     id: 1,
     image: pdfassistant,
