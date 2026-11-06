@@ -60,6 +60,17 @@ https://github.com/MCPraveen1/interviewiq
 
 ---
 
+### 📈 Fundamental Analysis Agent – AI Investment Research
+
+A multi-agent stock analysis system covering Indian and US equities. An Investment Orchestrator coordinates specialist agents for financial data, live prices and financial intelligence/news, producing structured investment memos. The project includes FastAPI endpoints for JSON and PDF reports and Docker-based packaging.
+
+**Tech Stack:** Python, Groq, Multi-Agent AI, FastAPI, Docker, yfinance, Financial Modeling Prep (FMP)
+
+🔗 GitHub:  
+https://github.com/MCPraveen1/fundamental-analysis-agent
+
+---
+
 ### 📄 AI PDF Assistant
 
 An AI-powered PDF assistant that uses Retrieval-Augmented Generation (RAG) to answer questions from uploaded PDF documents.
